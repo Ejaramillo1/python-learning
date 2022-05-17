@@ -15,6 +15,10 @@ space = ' '
 print("Hello", space*5, "world")
 
 '''
-33333
-
+12 spaces wold be here
+1 space after first parameter,
+10 space by using space*10
+1 space after second parameter
 '''
+
+print("Hello", space*10, "world")
