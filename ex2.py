@@ -13,3 +13,7 @@ space = ' '
 '''
 
 print("Hello", space*5, "world")
+
+'''
+
+'''
