@@ -1,6 +1,7 @@
 A = 50
 B = 75
 
+
 # Adding two numbers A+B
 result = A + B
 

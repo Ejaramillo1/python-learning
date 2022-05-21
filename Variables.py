@@ -1,7 +1,7 @@
 your_name="python"
 a=10
 b=2.0
-c=255
+c=255 
 print(your_name)
 print(a)
 print(b)

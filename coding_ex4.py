@@ -5,6 +5,7 @@ i = 5 # a whole number in type
 f = 3.1415926 # a floating number Value of Pi
 string = "Python Course"
 
+
 print(i)
 print(f)
 print(string)
