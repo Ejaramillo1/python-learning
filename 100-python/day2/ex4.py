@@ -15,9 +15,12 @@ def main():
     #Third ask the number of peple the account is going to be split
     ppl = float(input("How many people to split the bill? "))
 
+#Use the function defined previously
     total = calculate_total(bill, prc, ppl)
+#Print the result of the function
+    print(f"Each person should pay: ${total:.2f}")
 
-    print(f"Each person should pay: {total:.2f}")
+# Define a function to calculate the total  and  how much each person needs to pay
 
 def calculate_total(bill, percent, people):
     percent = percent / 100
