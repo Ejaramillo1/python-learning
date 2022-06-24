@@ -8,11 +8,14 @@ It should return numberical value. Your code must be iterative
 """
 
 def iterPower(base, exp):
-    result = base
-    for _ in range(exp):
+    if exp == 0:
+        result = 1
+    else:
+        result = base
+    for _ in range(1, exp):
         result *= base
     return result
     
     
 
-print(iterPower(2,2))
+print(iterPower(-3.8, 0))
